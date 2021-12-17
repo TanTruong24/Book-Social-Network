@@ -1,0 +1,221 @@
+.main {
+  display: block;
+  overflow: auto;
+  margin: 15px;
+  background-color: white;
+}
+.main .product__payment,
+.product__payment .col-right {
+  border: 1px solid #f2f2f2;
+}
+.main .product__payment {
+  display: block;
+  overflow: auto;
+  background-color: white;
+}
+.main .col-left {
+  display: block;
+  overflow: auto;
+  width: 39.84%;
+  float: left;
+}
+.main .col-left img {
+  max-width: 400px;
+  max-height: 450px;
+  margin-left: 115px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.main .col-right {
+  display: block;
+  overflow: auto;
+  width: 60%;
+  padding-top: 20px;
+}
+.main .col-right hr {
+  border: 1px solid #f2f2f2;
+}
+.main .col-right .title {
+  padding-left: 30px;
+}
+.main .col-right .rate {
+  padding-left: 30px;
+}
+.main .col-right .rate li {
+  padding-right: 20px;
+}
+.main .col-right .rate__star .fa-star {
+  color: gray;
+}
+.main .col-right .rate__star .checked {
+  color: orange;
+}
+.main .col-right .rate {
+  list-style: none;
+}
+.main .col-right .rate > li {
+  display: inline;
+}
+.main .col-right .rate__author {
+  font-weight: bold;
+}
+.main .col-right .rate__author span {
+  font-weight: lighter;
+}
+.main .col-right .cost {
+  padding-left: 30px;
+  font-size: 25px;
+}
+.main .col-right .format {
+  padding-left: 30px;
+}
+.main .col-right .format span {
+  color: gray;
+}
+.main .col-right .format__choose .option {
+  float: left;
+  width: 120px;
+  margin-right: 10px;
+  line-height: 1.6;
+  border-width: 0 0 1px;
+  border-style: solid;
+  color: gray;
+  border-color: #f2f2f2;
+}
+.main .col-right .format__choose .option:focus {
+  font-weight: bold;
+  border-width: 0 0 2px;
+  border-color: black;
+  color: black;
+}
+.main .col-right .summary {
+  clear: both;
+  padding-left: 30px;
+  padding-top: 10px;
+  width: 80%;
+}
+.main .col-right .add {
+  padding-top: 20px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+.main .col-right .add__quantily {
+  display: block;
+  overflow: auto;
+  float: left;
+  border: 1px solid #f2f2f2;
+  padding: 10px 2px;
+  margin-right: 20px;
+}
+.main .col-right .add__quantily button {
+  padding: 6px 12px;
+  font-size: 15px;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.main .col-right .add__quantily input {
+  font-size: 15px;
+  outline: none;
+  border: none;
+  width: 50px;
+}
+.main .col-right .add__btn button {
+  background-color: #333; /* Green */
+  border: none;
+  color: white;
+  padding: 14px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 0px 2px;
+}
+.main .col-right .add__btn button:hover {
+  background-color: black;
+}
+.main .col-right .action {
+  padding-left: 30px;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #333;
+}
+.main .col-right .action .wishlist {
+  float: left;
+  padding-right: 30px;
+}
+.main .col-right .action .wishlist:hover,
+.main .col-right .action .share:hover {
+  color: red;
+}
+.main .product__info hr {
+  border: 1px solid #f2f2f2;
+}
+.main .product__info .intro {
+  text-align: center;
+  margin: 20px;
+}
+.main .product__info .intro a {
+  text-decoration: none;
+  color: gray;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-size: 18px;
+  border-width: 0 0 1px;
+  border-style: solid;
+  color: gray;
+  border-color: #f2f2f2;
+  margin-right: 20px;
+  line-height: 1.7;
+}
+.main .product__info .intro a:hover {
+  font-weight: bold;
+  border-width: 0 0 2px;
+  border-color: black;
+  color: black;
+}
+.main .product__info .intro .action {
+  font-weight: bold;
+  border-width: 0 0 2px;
+  border-color: black;
+  color: black;
+}
+.main .product__info .desciption {
+  text-align: justify;
+  margin: auto;
+  width: 60%;
+  line-height: 1.6;
+}
+.main .product__info .details__table {
+  width: 60%;
+  margin: auto;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  border-collapse: collapse;
+}
+
+.main .product__info .details__table td {
+  border: none;
+  padding: 10px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.main .product__info .details__table tr .bold {
+  font-weight: bold;
+}
+.main .product__info .details__table tr:nth-child(even) {
+  background-color: white;
+}
+
+.main .product__info .details__table tr:hover {
+  background-color: #ddd;
+}
+
+.main .product__info .details__table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  color: black;
+}
