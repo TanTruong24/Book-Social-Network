@@ -1,5 +1,6 @@
 /*next page*/
 .main .col-right .next-page {
+  clear: both;
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
@@ -21,11 +22,11 @@
 .main .col-left .sidenav {
   float: left;
   height: 100%;
-  width: 270px;
+  width: 300px;
   background-color: white;
   color: black;
   overflow-x: hidden;
-  margin-right: 15px;
+  margin: 15px 15px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -63,19 +64,49 @@
   font-weight: bolder;
 }
 /* On mouse-over */
-.main .col-left .sidenav__item .dropdown-container a:hover {
+.main .col-left .sidenav__item .dropdown-container a:hover,
+.col-right a:hover {
   color: red;
 }
-/* .active {
-    color: red;
-  } */
-
-/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.main .col-left .sidenav__item .dropdown-container .post {
+  display: block;
+  overflow: auto;
+  margin-left: 10px;
+  border: 1px solid #f2f2f2;
+  padding: 3px;
+  margin-bottom: 5px;
+}
+.main .col-left .sidenav__item .dropdown-container .post .left {
+  float: left;
+}
+.main .col-left .sidenav__item .dropdown-container .post .title {
+  font-weight: bold;
+  width: 85%;
+  font-size: 15px;
+}
+.main .col-left .sidenav__item .dropdown-container .post .date {
+  text-align: left;
+  font-size: 13px;
+  color: gray;
+  font-weight: lighter;
+  margin-top: 10px;
+}
+.main .col-left .sidenav__item .dropdown-container .post img {
+  width: 70px;
+  height: 70px;
+  margin-right: 10px;
+}
 .main .col-left .sidenav__item .dropdown-container {
   display: none;
   padding-left: 8px;
 }
-
+.main .col-left .sidenav__item .dropdown-container button {
+  padding: 2px 3px;
+  border: none;
+  outline: none;
+  background-color: wheat;
+  margin: 3px 1px;
+}
 /* Optional: Style the caret down icon */
 .main .col-left .sidenav__item .fa-plus {
   float: right;
@@ -189,4 +220,69 @@
 
 .sidenav__item .dropdown-container .input-container .search-author:focus {
   border: 2px solid #333;
+}
+
+/*trang chính blog theo dạng list*/
+.main {
+  display: block;
+  overflow: auto;
+  background-color: white;
+  margin-right: 15px;
+}
+.main .col-right {
+  margin-left: 330px;
+}
+.main .col-right .row {
+  display: block;
+  overflow: auto;
+  border: 1px solid #f2f2f2;
+  margin: 15px;
+}
+.main .col-right .row__left {
+  float: left;
+  margin: 15px;
+}
+.main .col-right .row__left img {
+  width: 230px;
+  height: 230px;
+}
+.main .col-right .row__right {
+  float: left;
+  margin-left: 15px;
+  width: 65%;
+  line-height: 1.6;
+  margin-top: 15px;
+}
+.main .col-right .row__right .tag {
+  color: red;
+}
+.main .col-right .row__right .title {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px 0px;
+}
+.main .col-right .row__right .title:hover {
+  color: red;
+}
+.main .col-right .row__right .summary {
+  color: gray;
+  padding-bottom: 10px;
+  max-height: 100px;
+}
+.main .col-right .row__right .info {
+  color: gray;
+  font-size: 15px;
+}
+.main .col-right .row__right .info span {
+  margin-right: 20px;
+}
+.main .col-right .row__right .info .name {
+  font-weight: bold;
+}
+.main .col-right .row__right a {
+  text-decoration: none;
+  color: black;
+}
+.main .col-right .row__right a:hover {
+  color: red;
 }
