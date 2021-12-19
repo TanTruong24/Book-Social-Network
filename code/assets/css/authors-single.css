@@ -108,8 +108,8 @@ a {
   width: 400px;
 }
 .main .main__intro .left img {
-  width: 380px;
-  height: 400px;
+  max-width: 380px;
+  max-height: 400px;
 }
 .main .main__intro .right {
   line-height: 1.5;
@@ -118,7 +118,7 @@ a {
 }
 .main .main__intro .right .tag {
   text-transform: uppercase;
-  color: gray;
+  color: red;
 }
 .main .main__intro .right__bottom .main__card {
   background-color: #f2f2f2;
