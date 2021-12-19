@@ -1,0 +1,35 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+.main {
+  margin: 15px;
+  background-color: white;
+  display: block;
+  overflow: auto;
+  padding-left: 20px;
+}
+.main__card .row__author {
+  margin-left: 40px;
+  width: 200px;
+  padding-top: 15px;
+  float: left;
+}
+.main__card .row__author .author-image img {
+  margin-left: 24px;
+  border-radius: 50%;
+  max-width: 150px;
+  max-height: 150px;
+}
+.main__card .row__author .author-info__name {
+  text-align: center;
+  font-weight: bold;
+}
+.main__card .row__author .author-info__published {
+  text-align: center;
+  color: #adadad;
+}
+.fa-angle-right {
+  padding-top: 5px;
+  font-size: 30px;
+}
