@@ -372,6 +372,14 @@ body {
 
 /*feature book*/
 /*****************************/
+.video-js {
+  margin: auto;
+  width: 50%;
+}
+.video {
+  padding-left: 15px;
+  margin-bottom: 20px;
+}
 .main__card .head {
   margin-bottom: 20px;
 }
@@ -620,6 +628,7 @@ body {
 .footer__info .col-left p {
   clear: both;
   color: #adadad;
+  line-height: 1.5;
 }
 .footer__info .col-left .social-icon li {
   display: inline-block;

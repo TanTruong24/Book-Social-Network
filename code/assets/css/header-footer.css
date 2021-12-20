@@ -294,6 +294,7 @@ body {
 .footer__info .col-left p {
   clear: both;
   color: #adadad;
+  line-height: 1.5;
 }
 .footer__info .col-left .social-icon li {
   display: inline-block;

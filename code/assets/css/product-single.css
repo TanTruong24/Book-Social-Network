@@ -2,6 +2,10 @@ a {
   text-decoration: none;
   color: black;
 }
+.video-js {
+  margin: auto;
+  width: 50%;
+}
 .main {
   display: block;
   overflow: auto;

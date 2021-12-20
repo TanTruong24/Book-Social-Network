@@ -7,12 +7,14 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://vjs.zencdn.net/7.17.0/video-js.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/header-footer.css" />
     <link rel="stylesheet" href="assets/css/product-single.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="assets/css/snow.css" />
   </head>
-  <body>
+  <body class="background">
     <div class="header">
       <div class="top-header">
         <div class="left">
@@ -49,7 +51,7 @@
             </div>
             <div class="nav">
               <a href="index.html">Trang chủ</a>
-              <a href="shop.html">Cửa hàng</a>
+              <a href="shop.html" class="active-shop">Cửa hàng</a>
               <a href="blog.html">Blog</a>
               <a href="authors-list.html">Tác giả</a>
             </div>
@@ -144,6 +146,7 @@
           <div class="intro">
             <a class="action" href="#idDesciption">Mô tả</a>
             <a href="#idDetails">Chi tiết</a>
+            <a href="#my-video">Video</a>
             <a href="#idReview">Reviews</a>
           </div>
           <hr />
@@ -165,6 +168,7 @@
           <div class="intro">
             <a href="#idDesciption">Mô tả</a>
             <a class="action" href="#idDetails">Chi tiết</a>
+            <a href="#my-video">Video</a>
             <a href="#idReview">Reviews</a>
           </div>
           <hr />
@@ -200,6 +204,34 @@
           <div class="intro">
             <a href="#idDesciption">Mô tả</a>
             <a href="#idDetails">Chi tiết</a>
+            <a class="action" href="#my-video">Video</a>
+            <a href="#idReview">Reviews</a>
+          </di>
+          <hr />
+          <video
+            id="my-video"
+            class="video-js"
+            controls
+            preload="auto"
+            width="640"
+            height="400"
+            poster="assets/videos/poster.jpg"
+            data-setup="{}"
+          >
+            <source src="assets/videos/video1.mp4" type="video/mp4" />
+            <p class="vjs-no-js">
+              To view this video please enable JavaScript, and consider upgrading to a
+              web browser that
+              <a href="https://videojs.com/html5-video-support/" target="_blank"
+                >supports HTML5 video</a
+              >
+            </p>
+          </video>
+          <hr />
+          <div class="intro">
+            <a href="#idDesciption">Mô tả</a>
+            <a href="#idDetails">Chi tiết</a>
+            <a href="#my-video">Video</a>
             <a class="action" href="#idReview">Reviews</a>
           </di>
           <hr />
@@ -518,23 +550,24 @@
           <h3>Về Chúng Tôi</h3>
           <hr />
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-            facilisis mi ut scelerisque iaculis. Etiam lorem turpis, cursus eget
-            metus quis, imperdiet ultrices metus. Aliquam nisl sapien, lacinia
-            sit amet sem vel, lacinia luctus arcu. Aenean a magna ut libero
-            bibendum pretium eget eget ante. Morbi vitae lectus at ante pharetra
-            malesuada eget at nulla. Donec ac elit ac nisi pretium euismod eu
-            quis orci.
+            AthenaBooks - website cửa hàng sách online. Là sản phẩm của sinh
+            viên Trương Thế Tấn - 19522180, sinh viên khoa Khoa học Máy tính,
+            trường ĐH Công nghệ Thông tin - ĐHQG HCM thực hiện. AthenaBooks là
+            sản phẩm đồ án cuối kỳ lớp IE104.M11 - Internet và Công nghệ Web với
+            hai giảng viên lý thuyết và thực hành là cô Nguyễn Thị Hồng Yến và
+            thầy Phạm Thế Sơn hướng dẫn thực hiện.
           </p>
           <ul class="social-icon">
             <li>
-              <a href=""><i class="fa fa-facebook"></i></a>
+              <a href="https://www.facebook.com/the.tan.92/" target="_blank"
+                ><i class="fa fa-facebook"></i
+              ></a>
             </li>
             <li>
-              <a href=""><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
             </li>
             <li>
-              <a href=""><i class="fa fa-youtube"></i></a>
+              <a href="#"><i class="fa fa-youtube"></i></a>
             </li>
           </ul>
         </div>
@@ -559,9 +592,20 @@
             <li><i class="fa fa-phone"></i> 0346114846</li>
             <li><i class="fa fa-envelope"></i>19522180@gm.uit.edu.vn</li>
           </ul>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3918.2311711961897!2d106.80086541417239!3d10.870014160433072!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527587e9ad5bf%3A0xafa66f9c8be3c91!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBDw7RuZyBuZ2jhu4cgVGjDtG5nIHRpbiDEkEhRRyBUUC5IQ00!5e0!3m2!1svi!2s!4v1640005028610!5m2!1svi!2s"
+            width="500"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </div>
     </div>
+    <span class="hidden" id="snowflake">&#10052;</span>
+    <script src="assets/js/snow.js"></script>
     <script src="assets/js/index.js"></script>
+    <script src="https://vjs.zencdn.net/7.17.0/video.min.js"></script>
   </body>
 </html>
