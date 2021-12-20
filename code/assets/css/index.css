@@ -1,35 +1,61 @@
 body {
   background-color: #f2f2f2;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
 }
 
 /**/
 .header {
-  margin-bottom: 30px;
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.header .top-header {
+  height: 20px;
+  margin-bottom: 10px;
+}
+.header .top-header .left {
+  float: left;
+}
+.header .top-header .right {
+  float: right;
+}
+.header .top-header span {
+  padding: 15px;
+  font-size: 16px;
+}
+.header .bottom-header {
+  padding-bottom: 20px;
+  clear: both;
 }
 .bottom-header_left {
   margin-left: 15px;
   width: 200px;
 }
 .bottom-header_right {
-  margin-left: 220px;
+  margin-left: 260px;
   margin-right: 15px;
+}
+.hr-gray {
+  border: 1px solid #f2f2f2;
 }
 
 /* css top navigation */
 .bottom-header_right .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: white;
 }
 
 .bottom-header_right .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #333;
+  font-weight: bold;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  width: 100px;
 }
 
 .bottom-header_right .topnav a:hover {
@@ -75,20 +101,20 @@ body {
 /*banner*/
 .bottom-header_right .banner {
   margin-top: 5px;
-  height: 328px;
+  height: 400px;
 }
 .bottom-header_right .banner .left {
   float: left;
   width: 70%;
   color: white;
-  height: 328px;
+  height: 400px;
   background-image: url('../images/banner-left.jpg');
 }
 .bottom-header_right .banner .right {
   float: right;
   width: 29.2%;
   color: white;
-  height: 328px;
+  height: 400px;
   background-image: url('../images/banner-right.jpg');
 }
 
@@ -142,29 +168,30 @@ body {
 
 /**Sidebar category*/
 .bottom-header_left .sidebar h3 {
-  color: white;
+  color: #333;
   padding-top: 5px;
   padding-left: 16px;
 }
 .bottom-header_left .sidebar {
   height: 381px;
-  width: 200px;
+  width: 240px;
   float: left;
-  background-color: #111;
+  background-color: white;
 }
 
-.bottom-header_left .sidebar a,
-.dropdown-btn {
+.bottom-header_left .sidebar a {
   display: block;
-  color: white;
-  padding: 16px;
+  color: #333;
+  padding: 10px 16px;
   text-decoration: none;
+  border-width: 0 0 1px;
+  border-style: solid;
 }
 
 .bottom-header_left .sidebar a:hover,
 .dropdown-btn:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #04aa6d;
+  color: white;
 }
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
@@ -204,8 +231,11 @@ body {
 /*main*/
 /*bestselling book*/
 .main {
-  margin: 20px 20px;
+  display: block;
+  overflow: auto;
+  padding: 20px;
   clear: both;
+  background-color: white;
 }
 .link-none {
   text-decoration: none;
@@ -227,6 +257,7 @@ body {
   overflow: auto;
   margin-left: 12px;
   clear: both;
+  padding-left: 13px;
 }
 .main__card .head {
   display: block;
@@ -306,6 +337,8 @@ body {
   background-color: rgb(255, 30, 68);
   color: white;
 }
+/*slideshow*/
+/* Slideshow container */
 
 /*feature book*/
 /*****************************/
@@ -381,7 +414,7 @@ body {
   float: right;
 }
 .main__card .new-release .col-left {
-  width: 36%;
+  width: 30%;
   background-color: white;
   float: left;
   height: fit-content;
@@ -389,12 +422,13 @@ body {
   padding: 15px;
 }
 .main__card .new-release .col-left img {
-  max-width: 500px;
+  max-width: 400px;
   height: 740px;
 }
 .main__card .new-release .col-right {
   float: right;
   width: 60%;
+  padding-right: 20px;
 }
 .main__card .new-release .col-right .row {
   margin-right: 0px;
@@ -405,7 +439,6 @@ body {
 .footer {
   display: block;
   overflow: auto;
-  margin: 15px;
   clear: both;
 }
 
@@ -523,4 +556,7 @@ body {
 .footer__info .col-center li,
 .footer__info .col-right li {
   margin-bottom: 10px;
+}
+.footer__info .col-right i {
+  padding-right: 10px;
 }

@@ -8,7 +8,7 @@
   background-color: white;
   color: black;
   overflow-x: hidden;
-  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /* Style the sidenav links and the dropdown button */
@@ -175,11 +175,19 @@
 }
 
 /*bestselling book*/
+.link-none {
+  text-decoration: none;
+  color: black;
+}
+.link-none-author {
+  text-decoration: none;
+  color: gray;
+}
 .main {
   display: block;
   overflow: auto;
-  margin: 20px 20px;
   clear: both;
+  background-color: white;
 }
 .main .col-right {
   display: block;
@@ -233,7 +241,7 @@
 }
 .main__card .row__product .book-image img {
   max-width: 180px;
-  max-height: 200px;
+  height: 200px;
 }
 .main__card .row__product .book-info,
 .main__card .row__product .book-add {
@@ -262,7 +270,7 @@
   color: #262626;
   font-weight: bold;
 }
-.main__card .row__product .book-add .fa-heart {
+.main__card .row__product .book-add .fa-heart-o {
   float: right;
   margin-right: 30px;
   color: rgb(255, 30, 68);

@@ -1,5 +1,4 @@
 .main {
-  margin: 15px;
   background-color: white;
 }
 .main .content {
@@ -22,6 +21,7 @@
 .main .text__head .info {
   font-size: 15px;
   color: gray;
+  margin-left: 0px;
 }
 .main .text__head .name {
   font-weight: bold;
@@ -31,6 +31,7 @@
   margin-left: 20px;
 }
 .main .text__bottom {
+  text-align: justify;
   margin-top: 40px;
 }
 .main .text__bottom .first-par {
@@ -167,6 +168,7 @@
   margin: auto;
   display: block;
   overflow: auto;
+  padding-bottom: 30px;
 }
 .comment .review__see {
   clear: both;
@@ -195,6 +197,10 @@
 .comment .review__see .cmt__title .checked,
 .fa-star-o {
   color: orange;
+}
+.comment .review__see .cmt__content {
+  line-height: 1.4;
+  font-size: 15px;
 }
 .comment .review__see .cmt__content .mul {
   float: left;
@@ -248,4 +254,20 @@ textarea {
 }
 .pr-20 {
   padding-right: 20px;
+}
+.load-more {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 40%;
+  width: 50%;
+}
+.load-more button {
+  padding: 10px 40px;
+  font-size: 18px;
+  border: 1px solid #333;
+  background-color: white;
+}
+.load-more button:hover {
+  background-color: #333;
+  color: white;
 }

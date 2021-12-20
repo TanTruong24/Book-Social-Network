@@ -5,7 +5,9 @@ a {
 .main {
   display: block;
   overflow: auto;
-  margin: 15px;
+}
+.main .main__book {
+  margin: 0px;
 }
 .main__card {
   display: block;
@@ -19,10 +21,15 @@ a {
   overflow: auto;
   margin-left: 12px;
   clear: both;
+  padding-left: 13px;
 }
 .main__card .head {
   display: block;
   overflow: auto;
+}
+.link-none-author {
+  text-decoration: none;
+  color: gray;
 }
 .main__card .head__view-more {
   margin-right: 15px;
@@ -101,6 +108,7 @@ a {
 .main .main__intro {
   display: block;
   overflow: auto;
+  margin: 20px;
 }
 .main .main__intro .left {
   float: left;
@@ -116,14 +124,15 @@ a {
   margin-top: 20px;
   margin-right: 30px;
 }
+.main .main__intro .right__above p {
+  text-align: justify;
+}
 .main .main__intro .right .tag {
   text-transform: uppercase;
   color: red;
 }
 .main .main__intro .right__bottom .main__card {
   background-color: #f2f2f2;
-}
-.main .main__intro .right__bottom .main__card .row {
 }
 .main .main__intro .right__bottom .main__card .row__product {
   border: none;

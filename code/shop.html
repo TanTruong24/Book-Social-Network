@@ -14,7 +14,21 @@
   </head>
   <body>
     <div class="header">
-      <div class="top-header"></div>
+      <div class="top-header">
+        <div class="left">
+          <span
+            ><i class="fa fa-question-circle-o"></i> Bạn có cần trợ giúp
+            không?</span
+          >
+          <span><i class="fa fa-mobile-phone"></i> 0346114846</span>
+        </div>
+        <div class="right">
+          <span><i class="fa fa-user-o"></i></span>
+          <span><i class="fa fa-shopping-cart"></i></span>
+          <span><i class="fa fa-heart-o"></i></span>
+        </div>
+      </div>
+      <hr class="hr-gray" />
       <div class="bottom-header">
         <div class="bottom-header_right">
           <div class="topnav" id="responsive-topnav">
@@ -24,9 +38,13 @@
                 <i class="fa fa-caret-down"></i>
               </button>
               <div class="categorydown-content">
-                <a href="#">Link 1</a>
-                <a href="#">Link 2</a>
-                <a href="#">Link 3</a>
+                <a href="shop.html">Chính trị - pháp luật</a>
+                <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
+                <a href="shop.html">Văn học nghệ thuật</a>
+                <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
+                <a href="shop.html">Truyện, Tiểu thuyết</a>
+                <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
+                <a href="shop.html">Sách thiếu nhi</a>
               </div>
             </div>
             <div class="nav">
@@ -51,6 +69,7 @@
           </div>
         </div>
       </div>
+      <hr class="hr-gray" />
     </div>
 
     <div class="main">
@@ -59,9 +78,13 @@
           <div class="sidenav__item" onclick="clickSidenav('sub-item1')">
             <button class="dropdown-btn">Danh Mục</button>
             <div id="sub-item1" class="dropdown-container">
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="shop.html">Chính trị - pháp luật</a>
+              <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
+              <a href="shop.html">Văn học nghệ thuật</a>
+              <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
+              <a href="shop.html">Truyện, Tiểu thuyết</a>
+              <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
+              <a href="shop.html">Sách thiếu nhi</a>
             </div>
           </div>
           <div class="sidenav__item" onclick="clickSidenav('sub-item2')">
@@ -73,9 +96,11 @@
                   <input class="search-author" type="text" name="authors" />
                 </div>
               </form>
-              <a href="#">Link 1</a>
-              <a href="#">Link 2</a>
-              <a href="#">Link 3</a>
+              <a href="authors-single.html">Nam Cao</a>
+              <a href="authors-single.html">J.K Rowling</a>
+              <a href="authors-single.html">Vũ Trọng Phụng</a>
+              <a href="authors-single.html">Nguyễn Ngọc Tư</a>
+              <a href="authors-single.html">Harper Lee</a>
             </div>
           </div>
           <div class="sidenav__item" onclick="clickSidenav('sub-item3')">
@@ -137,279 +162,448 @@
           <div class="row">
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html"
+                  ><img src="assets/images/book/180x200/nha-gia-kim.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Nhà giả kim</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Paulo Coelho</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img src="assets/images/book/180x200/vtp-so-do.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Số Đỏ</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Vũ Trọng Phụng</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book/180x200/nc-truyen-ngan.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Nam Cao truyện ngắn</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nam Cao</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book//180x200/thep-da-toi-the-day.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Thép Đã Tôi Thế Đấy</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nikolai Ostrovsky</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="row__product">
-              <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
-              </div>
-              <div class="book-info">
-                <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
-              </div>
-              <div class="book-add">
-                <div class="book-add_add">
-                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
-                </div>
-                <i class="fa fa-heart"></i>
-              </div>
-            </div>
-            <div class="row__product">
-              <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
-              </div>
-              <div class="book-info">
-                <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
-              </div>
-              <div class="book-add">
-                <div class="book-add_add">
-                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
-                </div>
-                <i class="fa fa-heart"></i>
-              </div>
-            </div>
-            <div class="row__product">
-              <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
-              </div>
-              <div class="book-info">
-                <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
-              </div>
-              <div class="book-add">
-                <div class="book-add_add">
-                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
-                </div>
-                <i class="fa fa-heart"></i>
-              </div>
-            </div>
-            <div class="row__product">
-              <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
-              </div>
-              <div class="book-info">
-                <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
-              </div>
-              <div class="book-add">
-                <div class="book-add_add">
-                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
-                </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book/180x200/buoc-duong-cung.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Bước Đường Cùng</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nguyễn Công Hoan</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book/180x200/Canh-dong-bat-tan.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Cánh Đồng Bất Tận</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nguyễn Ngọc Tư</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book/180x200/giet-con-chim-nhai.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Giết Con Chim Nhại</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Harpper Lee</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img src="assets/images/book/180x200/nc-doi-thua.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Đời Thừa</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nam Cao</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
           </div>
           <div class="row">
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img src="assets/images/book/180x200/chua-ruoi.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Chúa Ruồi</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >William Golding</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none"
+                  ><img src="assets/images/book/180x200/nha-gia-kim.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Nhà giả kim</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Paulo Coelho</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none">
+                  <img
+                    src="assets/images/book/180x200/sherlock-home-tron-bo.jpg"
+                    alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Sherlock Home trọn bộ</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >J.K Rowling</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
             <div class="row__product">
               <div class="book-image">
-                <img src="assets/images/nha-gia-kim.jpg" alt="" />
+                <a href="product-single.html" class="link-none">
+                  <img src="assets/images/book/180x200/vtp-giong-to.jpg" alt=""
+                /></a>
               </div>
               <div class="book-info">
                 <p class="book-info__format">PAPERBACK</p>
-                <div class="book-info__name">Nhà giả kim</div>
-                <p class="book-info__author">Paulo Coelho</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Giông tố</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Vũ Trọng Phụng</a
+                  >
+                </p>
               </div>
               <div class="book-add">
                 <div class="book-add_add">
                   <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
                 </div>
-                <i class="fa fa-heart"></i>
+                <i class="fa fa-heart-o"></i>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="row__product">
+              <div class="book-image">
+                <a href="product-single.html" class="link-none"
+                  ><img src="assets/images/book/180x200/mat-biec.jfif" alt=""
+                /></a>
+              </div>
+              <div class="book-info">
+                <p class="book-info__format">PAPERBACK</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Mắt Biếc</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Nguyễn Nhật Ánh</a
+                  >
+                </p>
+              </div>
+              <div class="book-add">
+                <div class="book-add_add">
+                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
+                </div>
+                <i class="fa fa-heart-o"></i>
+              </div>
+            </div>
+            <div class="row__product">
+              <div class="book-image">
+                <a href="product-single.html" class="link-none">
+                  <img
+                    src="assets/images/book/180x200/tuoi-tho-du-doi.jpg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="book-info">
+                <p class="book-info__format">PAPERBACK</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Tuổi Thơ Dữ Dội</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Phùng Quán</a
+                  >
+                </p>
+              </div>
+              <div class="book-add">
+                <div class="book-add_add">
+                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
+                </div>
+                <i class="fa fa-heart-o"></i>
+              </div>
+            </div>
+            <div class="row__product">
+              <div class="book-image">
+                <a href="product-single.html" class="link-none">
+                  <img src="assets/images/book/180x200/steve-jobs.jpg" alt=""
+                /></a>
+              </div>
+              <div class="book-info">
+                <p class="book-info__format">PAPERBACK</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none">Steve Jobs</a>
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Walter Isaacson</a
+                  >
+                </p>
+              </div>
+              <div class="book-add">
+                <div class="book-add_add">
+                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
+                </div>
+                <i class="fa fa-heart-o"></i>
+              </div>
+            </div>
+            <div class="row__product">
+              <div class="book-image">
+                <a href="product-single.html" class="link-none"
+                  ><img
+                    src="assets/images/book/180x200/ha-noi-36-pho-phuong.jpg"
+                    alt=""
+                /></a>
+              </div>
+              <div class="book-info">
+                <p class="book-info__format">PAPERBACK</p>
+                <div class="book-info__name">
+                  <a href="product-single.html" class="link-none"
+                    >Hà Nội 36 Phố Phường</a
+                  >
+                </div>
+                <p class="book-info__author">
+                  <a href="authors-single.html" class="link-none-author"
+                    >Thạch Lam</a
+                  >
+                </p>
+              </div>
+              <div class="book-add">
+                <div class="book-add_add">
+                  <a href="#"><i class="fa fa-shopping-cart"></i> GIỎ HÀNG</a>
+                </div>
+                <i class="fa fa-heart-o"></i>
               </div>
             </div>
           </div>
         </div>
         <div class="list__card"></div>
         <div class="next-page">
-          <button class="page">Trang trước</button>
-          <button class="page">1</button>
-          <button class="page">2</button>
-          <button class="page">3</button>
-          <button class="page">4</button>
-          <button class="page">5</button>
-          <button class="page">Trang sau</button>
+          <button class="page">
+            <a href="#" class="link-none">Trang trước</a>
+          </button>
+          <button class="page"><a href="#" class="link-none">1</a></button>
+          <button class="page"><a href="#" class="link-none">2</a></button>
+          <button class="page"><a href="#" class="link-none">3</a></button>
+          <button class="page"><a href="#" class="link-none">4</a></button>
+          <button class="page"><a href="#" class="link-none">5</a></button>
+          <button class="page">
+            <a href="#" class="link-none">Trang sau</a>
+          </button>
         </div>
       </div>
+      <hr class="hr-gray" />
     </div>
 
     <div class="footer">
@@ -470,11 +664,11 @@
           <hr />
           <ul>
             <li>
-              <i class="fas fa-map-marked-alt"></i>Khu phố 6, phường Linh Trung,
+              <i class="fa fa-map-marker"></i> Khu phố 6, phường Linh Trung,
               TP.Thủ Đức, TP. Hồ Chí Minh
             </li>
             <li><i class="fa fa-phone"></i> 0346114846</li>
-            <li><i class="fa fa-envelope"></i>19522180@gm.uit.edu.vn</li>
+            <li><i class="fa fa-envelope"></i> 19522180@gm.uit.edu.vn</li>
           </ul>
         </div>
       </div>

@@ -1,7 +1,10 @@
+a {
+  text-decoration: none;
+  color: black;
+}
 .main {
   display: block;
   overflow: auto;
-  margin: 15px;
   background-color: white;
 }
 .main .product__payment,
@@ -89,10 +92,12 @@
   color: black;
 }
 .main .col-right .summary {
+  text-align: justify;
   clear: both;
   padding-left: 30px;
   padding-top: 10px;
   width: 80%;
+  line-height: 1.4;
 }
 .main .col-right .add {
   padding-top: 20px;
@@ -346,12 +351,15 @@
 .fa-star-o {
   color: orange;
 }
+.product__info .review__see .cmt__content p {
+  font-size: 15px;
+}
 .product__info .review__see .cmt__content .mul {
   float: left;
   margin-right: 5px;
 }
 .product__info .review__see .cmt__content img {
-  width: 130px;
+  max-width: 170px;
   height: 170px;
 }
 .product__info .review__see .cmt__date {
@@ -406,6 +414,7 @@ textarea {
   margin-bottom: 50px;
   padding-bottom: 20px;
   background-color: white;
+  padding-left: 30px;
 }
 .main__card .row {
   display: block;
@@ -447,7 +456,7 @@ textarea {
 }
 .main__card .row__product .book-image img {
   max-width: 180px;
-  max-height: 200px;
+  height: 200px;
 }
 .main__card .row__product .book-info,
 .main__card .row__product .book-add {
