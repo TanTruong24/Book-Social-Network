@@ -144,7 +144,7 @@
   width: 360px;
 }
 .main .suggest .tag {
-  color: red;
+  color: #2b9348;
 }
 .main .suggest .date {
   margin-top: 15px;
@@ -243,13 +243,13 @@ textarea {
 }
 .comment .review__write .submit {
   padding: 15px 25px;
-  border: 1px solid black;
+  border: 1px solid #333;
   outline: none;
   font-size: 15px;
   background-color: white;
 }
 .comment .review__write .submit:hover {
-  background-color: #333;
+  background-color: #2b9348;
   color: white;
 }
 .pr-20 {
@@ -264,10 +264,10 @@ textarea {
 .load-more button {
   padding: 10px 40px;
   font-size: 18px;
-  border: 1px solid #333;
+  border: 1px solid #2b9348;
   background-color: white;
 }
 .load-more button:hover {
-  background-color: #333;
+  background-color: #2b9348;
   color: white;
 }

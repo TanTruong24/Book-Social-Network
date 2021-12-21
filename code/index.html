@@ -10,6 +10,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/header-footer.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.css" type="text/css" />
     <link
       rel="stylesheet"
@@ -37,12 +38,17 @@
       </div>
       <hr class="hr-gray" />
       <div class="bottom-header">
-        <div class="bottom-header__above">
+        <div class="logo">
+          <a href="index.html"><img src="assets/images/logo.gif" alt="" /></a>
+        </div>
+        <div class="bottom-header_right">
           <div class="topnav" id="responsive-topnav">
-            <a href="index.html" class="active-home">Trang chủ</a>
-            <a href="shop.html">Cửa hàng</a>
-            <a href="blog.html">Blog</a>
-            <a href="authors-list.html">Tác giả</a>
+            <div class="nav">
+              <a href="index.html" class="active-shop">Trang chủ</a>
+              <a href="shop.html">Cửa hàng</a>
+              <a href="blog.html">Blog</a>
+              <a href="authors-list.html">Tác giả</a>
+            </div>
             <a
               href="javascript:void(0);"
               class="icon"
@@ -50,39 +56,12 @@
             >
               <i class="fa fa-bars"></i>
             </a>
-            <div class="search-container">
-              <form action="/action_page.php">
-                <input type="text" placeholder="Search.." name="search" />
-                <button type="submit"><i class="fa fa-search"></i></button>
-              </form>
-            </div>
           </div>
-        </div>
-        <hr class="hr-gray" />
-        <div class="bottom-header_bottom">
-          <div class="sidebar">
-            <div class="category"><h3>DANH MỤC</h3></div>
-            <a href="shop.html">Chính trị - pháp luật</a>
-            <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
-            <a href="shop.html">Văn học nghệ thuật</a>
-            <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
-            <a href="shop.html">Truyện, Tiểu thuyết</a>
-            <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
-            <a href="shop.html">Sách thiếu nhi</a>
-          </div>
-          <div class="banner">
-            <div id="carousel-banner" class="left owl-carousel">
-              <div class="banner-1 item">
-                <!-- <img src="assets/images/banner/1060x400/1.png" alt="" /> -->
-                <button class="bt-banner1">
-                  <a href="blog-single.html" class="link-bt-none"
-                    >Xem bài viết</a
-                  >
-                </button>
-              </div>
-              <a href="shop.html"><div class="banner-2 item"></div></a>
-              <a href="shop.html"><div class="banner-3 item"></div></a>
-            </div>
+          <div class="search-container">
+            <form>
+              <input type="text" placeholder="Nhập từ khóa..." name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
           </div>
         </div>
       </div>
@@ -90,6 +69,30 @@
     </div>
 
     <div class="main">
+      <div class="bottom-header_bottom">
+        <div class="sidebar">
+          <div class="category"><h3>DANH MỤC</h3></div>
+          <a href="shop.html">Chính trị - pháp luật</a>
+          <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
+          <a href="shop.html">Văn học nghệ thuật</a>
+          <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
+          <a href="shop.html">Truyện, Tiểu thuyết</a>
+          <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
+          <a href="shop.html">Sách thiếu nhi</a>
+        </div>
+        <div class="banner">
+          <div id="carousel-banner" class="left owl-carousel">
+            <div class="banner-1 item">
+              <!-- <img src="assets/images/banner/1060x400/1.png" alt="" /> -->
+              <button class="bt-banner1">
+                <a href="blog-single.html" class="link-bt-none">Xem bài viết</a>
+              </button>
+            </div>
+            <a href="shop.html"><div class="banner-2 item"></div></a>
+            <a href="shop.html"><div class="banner-3 item"></div></a>
+          </div>
+        </div>
+      </div>
       <!-- Bestselling books -->
       <div class="main__card">
         <div class="head">
@@ -106,7 +109,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Nhà giả kim</a>
               </div>
@@ -130,7 +133,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Số Đỏ</a>
               </div>
@@ -156,7 +159,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Nam Cao truyện ngắn</a
@@ -184,7 +187,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Thép Đã Tôi Thế Đấy</a
@@ -210,7 +213,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Chúa Ruồi</a>
               </div>
@@ -236,7 +239,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Đại gia Gatsby</a
@@ -286,7 +289,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Vợ Nhặt</a>
               </div>
@@ -312,7 +315,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Không Gia Đình</a
@@ -340,7 +343,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Ông già và Biển cả</a
@@ -386,7 +389,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Bước Đường Cùng</a
@@ -414,7 +417,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Cánh Đồng Bất Tận</a
@@ -442,7 +445,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Giết Con Chim Nhại</a
@@ -468,7 +471,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Đời Thừa</a>
               </div>
@@ -494,7 +497,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Ông già và Biển cả</a
@@ -522,7 +525,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Chúa Ruồi</a>
               </div>
@@ -546,7 +549,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Nhà giả kim</a>
               </div>
@@ -572,7 +575,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Sherlock Home trọn bộ</a
@@ -598,7 +601,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none">Giông tố</a>
               </div>
@@ -624,7 +627,7 @@
               /></a>
             </div>
             <div class="book-info">
-              <p class="book-info__format">Bìa mềm</p>
+              <p class="book-info__format">BÌA MỀM</p>
               <div class="book-info__name">
                 <a href="product-single.html" class="link-none"
                   >Hà Nội 36 Phố Phường</a
@@ -712,7 +715,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none">Mắt Biếc</a>
                   </div>
@@ -738,7 +741,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none"
                       >Tuổi Thơ Dữ Dội</a
@@ -764,7 +767,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none"
                       >Steve Jobs</a
@@ -794,7 +797,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none"
                       >Chúa tể của những chiếc nhẫn tập 1</a
@@ -822,7 +825,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none">
                       Chúa tể của những chiếc nhẫn tập 2</a
@@ -850,7 +853,7 @@
                   /></a>
                 </div>
                 <div class="book-info">
-                  <p class="book-info__format">Bìa mềm</p>
+                  <p class="book-info__format">BÌA MỀM</p>
                   <div class="book-info__name">
                     <a href="product-single.html" class="link-none"
                       >Chúa tể của những chiếc nhẫn tập 3</a
@@ -995,8 +998,8 @@
       <div class="join-newsletter">
         <h2>Tham Gia Để Nhận Thông Tin Mới Nhất</h2>
         <p>
-          Đăng ký để là người đầu tiên nghe về các, sản phẩm mới, ưu đãi đặc
-          biệt và các bộ sưu tập sắp ra mắt
+          Đăng ký để là người đầu tiên nghe về các sản phẩm mới, ưu đãi đặc biệt
+          và các bộ sưu tập sắp ra mắt
         </p>
         <form>
           <input
