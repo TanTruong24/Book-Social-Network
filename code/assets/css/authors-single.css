@@ -7,7 +7,7 @@ a {
   overflow: auto;
 }
 .main .main__book {
-  margin: 0px;
+  margin: 0px 20px;
 }
 .main__card {
   display: block;
@@ -82,9 +82,12 @@ a {
   font-size: 12px;
   color: gray;
 }
-.main__card .row__product .book-add_add {
+.main__card .row__product .fa-shopping-basket {
   float: left;
-  margin-top: 10px;
+  color: #2b9348;
+  border-radius: 50%;
+  padding: 10px;
+  margin-bottom: 15px;
 }
 .main__card .row__product .book-add a {
   text-decoration: none;
@@ -107,9 +110,11 @@ a {
   color: white;
 }
 .main .main__intro {
+  background-color: #f2f2f2;
   display: block;
   overflow: auto;
   margin: 20px;
+  margin-top: 0px !important;
 }
 .main .main__intro .left {
   float: left;

@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>AthenaBooks - Cửa hàng</title>
+    <title>AthenaBook - Blog</title>
     <meta charset="utf-8" />
+    <link rel="icon" href="assets/images/logo-icon.png" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
     <link rel="stylesheet" href="assets/css/blog.css" />
+    <link rel="stylesheet" href="assets/css/sidenav.css" />
     <link rel="stylesheet" href="assets/css/header-footer.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="assets/css/snow.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/snowfall.css" />
   </head>
   <body class="background">
     <div class="header">
@@ -25,7 +27,7 @@
         </div>
         <div class="right">
           <span><i class="fa fa-user-o"></i></span>
-          <span><i class="fa fa-shopping-cart"></i></span>
+          <span><i class="fa fa-shopping-basket"></i></span>
           <span><i class="fa fa-heart-o"></i></span>
         </div>
       </div>
@@ -37,10 +39,10 @@
         <div class="bottom-header_right">
           <div class="topnav" id="responsive-topnav">
             <div class="nav">
-              <a href="index.html">Trang chủ</a>
-              <a href="shop.html">Cửa hàng</a>
-              <a href="blog.html" class="active-shop">Blog</a>
-              <a href="authors-list.html">Tác giả</a>
+              <a href="index.html">TRANG CHỦ</a>
+              <a href="shop.html">CỬA HÀNG</a>
+              <a href="blog.html" class="active-shop">BLOG</a>
+              <a href="authors-list.html">TÁC GIẢ</a>
             </div>
             <a
               href="javascript:void(0);"
@@ -60,85 +62,82 @@
       </div>
       <hr class="hr-gray" />
     </div>
-
-    <div class="main">
-      <div class="col-left">
-        <div class="sidenav">
-          <div class="sidenav__item" onclick="clickSidenav('sub-item1')">
-            <button class="dropdown-btn">Danh Mục</button>
-            <div id="sub-item1" class="dropdown-container">
-              <a href="shop.html">Chính trị - pháp luật</a>
-              <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
-              <a href="shop.html">Văn học nghệ thuật</a>
-              <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
-              <a href="shop.html">Truyện, Tiểu thuyết</a>
-              <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
-              <a href="shop.html">Sách thiếu nhi</a>
+    <div class="sidenav">
+      <div class="sidenav__item" onclick="clickSidenav('sub-item1')">
+        <button class="dropdown-btn">Danh Mục</button>
+        <div id="sub-item1" class="dropdown-container">
+          <a href="shop.html">Chính trị - pháp luật</a>
+          <a href="shop.html">Khoa học công nghệ - Kinh tế</a>
+          <a href="shop.html">Văn học nghệ thuật</a>
+          <a href="shop.html">Văn hóa xã hội - Lịch sử</a>
+          <a href="shop.html">Truyện, Tiểu thuyết</a>
+          <a href="shop.html">Tâm lý, Tâm linh, Tôn giáo</a>
+          <a href="shop.html">Sách thiếu nhi</a>
+        </div>
+      </div>
+      <div class="sidenav__item" onclick="clickSidenav('sub-item2')">
+        <button class="dropdown-btn">Tác giả</button>
+        <div id="sub-item2" class="dropdown-container">
+          <form>
+            <div class="input-container">
+              <i class="fa fa-search icon"></i>
+              <input class="search-author" type="text" name="authors" />
             </div>
+          </form>
+          <a href="authors-single.html">Nam Cao</a>
+          <a href="authors-single.html">J.K Rowling</a>
+          <a href="authors-single.html">Vũ Trọng Phụng</a>
+          <a href="authors-single.html">Nguyễn Ngọc Tư</a>
+          <a href="authors-single.html">Harper Lee</a>
+        </div>
+      </div>
+      <div class="sidenav__item" onclick="clickSidenav('sub-item3')">
+        <button class="dropdown-btn">Bài viết gần đây</button>
+        <div id="sub-item3" class="dropdown-container">
+          <div class="post">
+            <div class="left">
+              <img src="assets/images/blog/70x70/img1_70.jpg" alt="" />
+            </div>
+            <div class="title">
+              <a href="#">Sống tĩnh lặng</a>
+            </div>
+            <div class="date">24/12/2001</div>
           </div>
-          <div class="sidenav__item" onclick="clickSidenav('sub-item2')">
-            <button class="dropdown-btn">Tác giả</button>
-            <div id="sub-item2" class="dropdown-container">
-              <form>
-                <div class="input-container">
-                  <i class="fa fa-search icon"></i>
-                  <input class="search-author" type="text" name="authors" />
-                </div>
-              </form>
-              <a href="authors-single.html">Nam Cao</a>
-              <a href="authors-single.html">J.K Rowling</a>
-              <a href="authors-single.html">Vũ Trọng Phụng</a>
-              <a href="authors-single.html">Nguyễn Ngọc Tư</a>
-              <a href="authors-single.html">Harper Lee</a>
+          <div class="post">
+            <div class="left">
+              <img src="assets/images/blog/70x70/img2.jpg" alt="" />
             </div>
+            <div class="title">
+              <a href="#">Để đọc hiệu quả</a>
+            </div>
+            <div class="date">24/12/2001</div>
           </div>
-          <div class="sidenav__item" onclick="clickSidenav('sub-item3')">
-            <button class="dropdown-btn">Bài viết gần đây</button>
-            <div id="sub-item3" class="dropdown-container">
-              <div class="post">
-                <div class="left">
-                  <img src="assets/images/blog/70x70/img1_70.jpg" alt="" />
-                </div>
-                <div class="title">
-                  <a href="#">Sống tĩnh lặng</a>
-                </div>
-                <div class="date">24/12/2001</div>
-              </div>
-              <div class="post">
-                <div class="left">
-                  <img src="assets/images/blog/70x70/img2.jpg" alt="" />
-                </div>
-                <div class="title">
-                  <a href="#">Để đọc hiệu quả</a>
-                </div>
-                <div class="date">24/12/2001</div>
-              </div>
-              <div class="post">
-                <div class="left">
-                  <img src="assets/images/blog/70x70/img3.jpg" alt="" />
-                </div>
-                <div class="title">
-                  <a href="#">Xây dựng lại thói quen đọc sách</a>
-                </div>
-                <div class="date">24/12/2001</div>
-              </div>
+          <div class="post">
+            <div class="left">
+              <img src="assets/images/blog/70x70/img3.jpg" alt="" />
             </div>
-          </div>
-          <div class="sidenav__item" onclick="clickSidenav('sub-item4')">
-            <button class="dropdown-btn">Thẻ</button>
-            <div id="sub-item4" class="dropdown-container">
-              <button><a href="#">Sách</a></button>
-              <button><a href="#">Review</a></button>
-              <button><a href="#">Chia sẻ</a></button>
-              <button><a href="#">Lãng mạn</a></button>
-              <button><a href="#">Kiến thức</a></button>
-              <button><a href="#">Dạy con</a></button>
-              <button><a href="#">Giáo dục</a></button>
-              <button><a href="#">Hội họa</a></button>
+            <div class="title">
+              <a href="#">Xây dựng lại thói quen đọc sách</a>
             </div>
+            <div class="date">24/12/2001</div>
           </div>
         </div>
       </div>
+      <div class="sidenav__item" onclick="clickSidenav('sub-item4')">
+        <button class="dropdown-btn">Thẻ</button>
+        <div id="sub-item4" class="dropdown-container blog">
+          <button><a href="#">Sách</a></button>
+          <button><a href="#">Review</a></button>
+          <button><a href="#">Chia sẻ</a></button>
+          <button><a href="#">Lãng mạn</a></button>
+          <button><a href="#">Kiến thức</a></button>
+          <button><a href="#">Dạy con</a></button>
+          <button><a href="#">Giáo dục</a></button>
+          <button><a href="#">Hội họa</a></button>
+        </div>
+      </div>
+    </div>
+    <div class="main">
       <div class="col-right">
         <div class="container">
           <div class="row">
@@ -323,8 +322,31 @@
         </div>
       </div>
     </div>
-    <span class="hidden" id="snowflake">&#10052;</span>
-    <script src="assets/js/snow.js"></script>
+    <snowfall>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/snowflake.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/mistletoe.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+      <snowflake><img src="assets/images/christmas-bell.png" />️</snowflake>
+    </snowfall>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
