@@ -9,80 +9,80 @@ video {
   margin: auto;
   width: 50%;
 }
-.main {
+section {
   display: block;
   overflow: auto;
   background-color: white;
 }
-.main .product__payment,
+section .product__payment,
 .product__payment .col-right {
   border: 1px solid #f2f2f2;
 }
-.main .product__payment {
+section .product__payment {
   display: block;
   overflow: auto;
   background-color: white;
 }
-.main .col-left {
+section .col-left {
   display: block;
   overflow: auto;
   width: 39.84%;
   float: left;
 }
-.main .col-left img {
+section .col-left img {
   max-width: 400px;
   max-height: 450px;
   margin-left: 115px;
   margin-top: 50px;
   margin-bottom: 30px;
 }
-.main .col-right {
+section .col-right {
   display: block;
   overflow: auto;
   width: 60%;
   padding-top: 20px;
 }
-.main .col-right hr {
+section .col-right hr {
   border: 1px solid #f2f2f2;
 }
-.main .col-right .title {
+section .col-right .title {
   padding-left: 30px;
 }
-.main .col-right .rate {
+section .col-right .rate {
   padding-left: 30px;
 }
-.main .col-right .rate li {
+section .col-right .rate li {
   padding-right: 20px;
 }
-.main .col-right .rate__star .fa-star {
+section .col-right .rate__star .fa-star {
   color: gray;
 }
-.main .col-right .rate__star .checked {
+section .col-right .rate__star .checked {
   color: orange;
 }
-.main .col-right .rate {
+section .col-right .rate {
   list-style: none;
 }
-.main .col-right .rate > li {
+section .col-right .rate > li {
   display: inline;
 }
-.main .col-right .rate__author {
+section .col-right .rate__author {
   font-weight: bold;
 }
-.main .col-right .rate__author span {
+section .col-right .rate__author span {
   font-weight: lighter;
 }
-.main .col-right .cost {
+section .col-right .cost {
   padding-left: 30px;
   font-size: 25px;
 }
-.main .col-right .format {
+section .col-right .format {
   padding-left: 30px;
 }
-.main .col-right .format span {
+section .col-right .format span {
   color: gray;
 }
-.main .col-right .format__choose .option {
+section .col-right .format__choose .option {
   float: left;
   width: 120px;
   margin-right: 10px;
@@ -92,13 +92,13 @@ video {
   color: gray;
   border-color: #f2f2f2;
 }
-.main .col-right .format__choose .option:focus {
+section .col-right .format__choose .option:focus {
   font-weight: bold;
   border-width: 0 0 2px;
   border-color: black;
   color: black;
 }
-.main .col-right .summary {
+section .col-right .summary {
   text-align: justify;
   clear: both;
   padding-left: 30px;
@@ -106,12 +106,12 @@ video {
   width: 80%;
   line-height: 1.4;
 }
-.main .col-right .add {
+section .col-right .add {
   padding-top: 20px;
   padding-left: 30px;
   padding-bottom: 30px;
 }
-.main .col-right .add__quantily {
+section .col-right .add__quantily {
   display: block;
   overflow: auto;
   float: left;
@@ -119,20 +119,20 @@ video {
   padding: 10px 2px;
   margin-right: 20px;
 }
-.main .col-right .add__quantily button {
+section .col-right .add__quantily button {
   padding: 6px 12px;
   font-size: 15px;
   outline: none;
   border: none;
   background-color: white;
 }
-.main .col-right .add__quantily input {
+section .col-right .add__quantily input {
   font-size: 15px;
   outline: none;
   border: none;
   width: 50px;
 }
-.main .col-right .add__btn button {
+section .col-right .add__btn button {
   background-color: #2b9348; /* Green */
   border: none;
   color: white;
@@ -143,33 +143,33 @@ video {
   font-size: 18px;
   margin: 0px 2px;
 }
-.main .col-right .add__btn button:hover {
+section .col-right .add__btn button:hover {
   background-color: #004b23;
 }
-.main .col-right .action {
+section .col-right .action {
   padding-left: 30px;
   font-size: 18px;
   padding-top: 20px;
   padding-bottom: 30px;
   color: #333;
 }
-.main .col-right .action .wishlist {
+section .col-right .action .wishlist {
   float: left;
   padding-right: 30px;
 }
-.main .col-right .action .wishlist:hover,
-.main .col-right .action .share:hover {
+section .col-right .action .wishlist:hover,
+section .col-right .action .share:hover {
   color: #2b9348;
 }
-.main .product__info hr {
+section .product__info hr {
   border: 1px solid #f2f2f2;
 }
-.main .product__info .intro {
+section .product__info .intro {
   text-align: center;
   margin: 20px;
   margin-bottom: 3px !important;
 }
-.main .product__info .intro a {
+section .product__info .intro a {
   text-decoration: none;
   color: gray;
   padding-right: 20px;
@@ -183,25 +183,25 @@ video {
   margin-right: 20px;
   line-height: 1.7;
 }
-.main .product__info .intro a:hover {
+section .product__info .intro a:hover {
   font-weight: bold;
   border-width: 0 0 2px;
   border-color: #2b9348;
   color: #2b9348;
 }
-.main .product__info .intro .action {
+section .product__info .intro .action {
   font-weight: bold;
   border-width: 0 0 2px;
   border-color: #2b9348;
   color: #2b9348;
 }
-.main .product__info .desciption {
+section .product__info .desciption {
   text-align: justify;
   margin: auto;
   width: 60%;
   line-height: 1.6;
 }
-.main .product__info .details__table {
+section .product__info .details__table {
   width: 60%;
   margin: auto;
   border: 0;
@@ -210,24 +210,24 @@ video {
   border-collapse: collapse;
 }
 
-.main .product__info .details__table td {
+section .product__info .details__table td {
   border: none;
   padding: 10px;
   padding-bottom: 20px;
   padding-top: 20px;
 }
-.main .product__info .details__table tr .bold {
+section .product__info .details__table tr .bold {
   font-weight: bold;
 }
-.main .product__info .details__table tr:nth-child(even) {
+section .product__info .details__table tr:nth-child(even) {
   background-color: white;
 }
 
-.main .product__info .details__table tr:hover {
+section .product__info .details__table tr:hover {
   background-color: #ddd;
 }
 
-.main .product__info .details__table th {
+section .product__info .details__table th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
@@ -235,62 +235,62 @@ video {
 }
 
 /*review product*/
-.main .product__info .review {
+section .product__info .review {
   display: block;
   overflow: auto;
   width: 60%;
   margin: auto;
 }
-.main .product__info h3 {
+section .product__info h3 {
   text-align: left;
 }
-.main .product__info .review__rate .left,
-.main .product__info .review__rate .left__above {
+section .product__info .review__rate .left,
+section .product__info .review__rate .left__above {
   display: block;
   overflow: auto;
   float: left;
 }
-.main .product__info .review__rate .above__left {
+section .product__info .review__rate .above__left {
   float: left;
   font-size: 60px;
   margin-right: 20px;
 }
-.main .product__info .review__rate .above__right {
+section .product__info .review__rate .above__right {
   float: left;
   line-height: 1.6;
   padding-top: 10px;
 }
-.main .product__info .review__rate .left__above .above__right .fa-star {
+section .product__info .review__rate .left__above .above__right .fa-star {
   color: gray;
 }
-.main .product__info .review__rate .left__above .above__right .checked {
+section .product__info .review__rate .left__above .above__right .checked {
   color: orange;
 }
-.main .product__info .review__rate .left__above {
+section .product__info .review__rate .left__above {
   display: block;
   overflow: auto;
   margin-bottom: 20px;
 }
-.main .product__info .review__rate .left__bottom button {
+section .product__info .review__rate .left__bottom button {
   padding: 15px 25px;
   border: 1px solid #2b9348;
   outline: none;
   font-size: 15px;
 }
-.main .product__info .review__rate .left__bottom .all {
+section .product__info .review__rate .left__bottom .all {
   background-color: white;
   color: black;
   margin-right: 15px;
 }
-.main .product__info .review__rate .left__bottom .all:hover {
+section .product__info .review__rate .left__bottom .all:hover {
   background-color: #2b9348;
   color: white;
 }
-.main .product__info .review__rate .left__bottom .write {
+section .product__info .review__rate .left__bottom .write {
   color: white;
   background-color: #2b9348;
 }
-.main .product__info .review__rate .left__bottom .write:hover {
+section .product__info .review__rate .left__bottom .write:hover {
   background-color: #004b23;
 }
 .product__info .review__rate .right {

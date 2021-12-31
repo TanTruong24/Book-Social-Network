@@ -1,7 +1,7 @@
 /*main*/
 /*col left*/
 /* Fixed sidenav, full height */
-.sidenav {
+nav {
   float: left;
   height: 100%;
   width: 270px;

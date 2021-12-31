@@ -2,11 +2,11 @@ a {
   text-decoration: none;
   color: black;
 }
-.main {
+section {
   display: block;
   overflow: auto;
 }
-.main .main__book {
+.main__book {
   margin: 0px 20px;
 }
 .main__card {
@@ -109,38 +109,38 @@ a {
   background-color: #2b9348;
   color: white;
 }
-.main .main__intro {
+.main__intro {
   background-color: #f2f2f2;
   display: block;
   overflow: auto;
   margin: 20px;
   margin-top: 0px !important;
 }
-.main .main__intro .left {
+.main__intro .left {
   float: left;
   margin: 20px;
   width: 400px;
 }
-.main .main__intro .left img {
+.main__intro .left img {
   max-width: 380px;
   max-height: 400px;
 }
-.main .main__intro .right {
+.main__intro .right {
   line-height: 1.5;
   margin-top: 20px;
   margin-right: 30px;
 }
-.main .main__intro .right__above p {
+.main__intro .right__above p {
   text-align: justify;
 }
-.main .main__intro .right .tag {
+.main__intro .right .tag {
   text-transform: uppercase;
   color: #2b9348;
 }
-.main .main__intro .right__bottom .main__card {
+.main__intro .right__bottom .main__card {
   background-color: #f2f2f2;
 }
-.main .main__intro .right__bottom .main__card .row__product {
+.main__intro .right__bottom .main__card .row__product {
   border: none;
   margin-right: 10px;
 }

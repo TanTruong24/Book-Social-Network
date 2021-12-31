@@ -1,16 +1,16 @@
-.main {
+section {
   background-color: white;
 }
-.main .content {
+section .content {
   display: block;
   overflow: auto;
 }
-.main .content__banner {
+section .content__banner {
   margin: auto;
   width: 70%;
   padding-top: 20px;
 }
-.main .text {
+section .text {
   width: 60%;
   margin: auto;
   background-color: white;
@@ -18,78 +18,78 @@
   overflow: auto;
   line-height: 1.6;
 }
-.main .text__head .info {
+section .text__head .info {
   font-size: 15px;
   color: gray;
   margin-left: 0px;
 }
-.main .text__head .name {
+section .text__head .name {
   font-weight: bold;
 }
-.main .text__head .date,
-.main .text__head .cmt {
+section .text__head .date,
+section .text__head .cmt {
   margin-left: 20px;
 }
-.main .text__bottom {
+section .text__bottom {
   text-align: justify;
   margin-top: 40px;
 }
-.main .text__bottom .first-par {
+section .text__bottom .first-par {
   font-weight: bold;
 }
-.main .text__bottom .images {
+section .text__bottom .images {
   margin: auto;
   width: 60%;
 }
-.main .text__bottom img {
+section .text__bottom img {
   width: 100%;
 }
-.main .content__banner img {
+section .content__banner img {
   width: 100%;
   max-width: 900px;
   max-height: 600px;
 }
 /*người viết*/
-.main .info {
+section .info {
   margin: auto;
   width: 60%;
   display: block;
   overflow: auto;
   margin-top: 20px;
 }
-.main .info__social {
+section .info__social {
   display: block;
   overflow: auto;
   margin-bottom: 30px;
 }
-.main .info__social .left {
+section .info__social .left {
   padding-top: 12px;
   float: left;
 }
-.main .info__social .left span {
+section .info__social .left span {
   font-size: 22px;
   font-weight: bold;
 }
-.main .info__social .right {
+section .info__social .right {
   float: right;
 }
-.main .info__social .right button {
+section .info__social .right button {
   padding: 15px 25px;
   font-size: 15px;
   border: none;
   outline: none;
   color: white;
 }
-.main .info__social .right .facebook {
+section .info__social .right .facebook {
   background-color: #1877f2;
 }
-.main .info__social .right .twitter {
+section .info__social .right .twitter {
   background-color: #1da1f2;
 }
-.main .info__social .right .pinterest {
+section .info__social .right .pinterest {
   background-color: #bd081c;
 }
-.main .info__intro {
+section .info__intro {
   display: block;
   overflow: auto;
   background-color: #f2f2f2;
@@ -99,29 +99,29 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
-.main .info__intro .avatar {
+section .info__intro .avatar {
   float: left;
   margin: 30px;
 }
-.main .info__intro .avatar img {
+section .info__intro .avatar img {
   width: 130px;
   height: 130px;
 }
-.main .info__intro .intro {
+section .info__intro .intro {
   padding-top: 10px;
 }
-.main .info__intro .intro .name {
+section .info__intro .intro .name {
   font-weight: bold;
   font-size: 18px;
 }
-.main .info__intro .icon-social {
+section .info__intro .icon-social {
   margin-top: 15px;
 }
-.main .info__intro .icon-social span {
+section .info__intro .icon-social span {
   margin-right: 30px;
   font-size: 18px;
 }
-.main .suggest {
+section .suggest {
   width: 60%;
   margin: auto;
   display: block;
@@ -129,7 +129,7 @@
   line-height: 1.5;
   padding-bottom: 30px;
 }
-.main .suggest__left {
+section .suggest__left {
   display: block;
   overflow: auto;
   float: left;
@@ -137,33 +137,33 @@
   margin-right: 30px;
   margin-left: 30px;
 }
-.main .suggest__right {
+section .suggest__right {
   display: block;
   overflow: auto;
   float: left;
   width: 360px;
 }
-.main .suggest .tag {
+section .suggest .tag {
   color: #2b9348;
 }
-.main .suggest .date {
+section .suggest .date {
   margin-top: 15px;
 }
-.main .suggest .date span {
+section .suggest .date span {
   color: gray;
   font-size: 15px;
   margin-right: 20px;
 }
-.main .suggest .picture {
+section .suggest .picture {
   width: 100%;
 }
-.main .suggest .picture img {
+section .suggest .picture img {
   height: 280px;
   width: 340px;
 }
 
 /*comment*/
-.main .comment {
+section .comment {
   width: 60%;
   margin: auto;
   display: block;

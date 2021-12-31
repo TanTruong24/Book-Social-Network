@@ -3,6 +3,11 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px;
 }
+header {
+  background-color: white;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
 
 /**/
 .logo {
@@ -14,36 +19,31 @@ body {
   width: 200px;
   height: 50px;
 }
-.header {
-  background-color: white;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-.header .top-header {
+.top-header {
   height: 20px;
   margin-bottom: 15px;
 }
-.header .top-header .fa-user-o,
-.header .top-header .fa-shopping-basket,
-.header .top-header .fa-heart-o {
+.top-header .fa-user-o,
+.top-header .fa-shopping-basket,
+.top-header .fa-heart-o {
   border-radius: 50%;
   padding: 5px;
 }
-.header .top-header .right i:hover {
+.top-header .right i:hover {
   background-color: #2b9348;
   color: white;
 }
-.header .top-header .left {
+.top-header .left {
   float: left;
 }
-.header .top-header .right {
+.top-header .right {
   float: right;
 }
-.header .top-header span {
+.top-header span {
   padding: 15px;
   font-size: 16px;
 }
-.header .bottom-header {
+.bottom-header {
   display: block;
   overflow: auto;
   clear: both;
@@ -189,14 +189,14 @@ body {
 
 /*footer*/
 /*----------------------------------*/
-.footer {
+footer {
   display: block;
   overflow: auto;
   clear: both;
 }
 
 /*join email*/
-.footer .join-newsletter {
+.join-newsletter {
   display: block;
   overflow: auto;
   margin: auto;
@@ -206,7 +206,7 @@ body {
   padding: 20px 0px;
   padding-bottom: 50px;
 }
-.footer .join-newsletter input[type='email'] {
+.join-newsletter input[type='email'] {
   width: 40%;
   padding: 16px 20px;
   margin: 8px 0;
@@ -217,10 +217,10 @@ body {
   color: gray;
 }
 
-.footer .join-newsletter input[type='email']:focus {
+.join-newsletter input[type='email']:focus {
   background-color: #f0fff1;
 }
-.footer .join-newsletter .submit {
+.join-newsletter .submit {
   background-color: #2b9348;
   border: none;
   color: white;
@@ -233,7 +233,7 @@ body {
   cursor: pointer;
 }
 
-.footer .footer__info {
+.footer__info {
   display: block;
   overflow: auto;
   background-color: #2b9348;

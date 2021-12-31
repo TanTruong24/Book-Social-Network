@@ -1,83 +1,83 @@
 /*next page*/
-.main .col-right .next-page {
+section .col-right .next-page {
   clear: both;
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
 }
-.main .col-right .next-page .page {
+section .col-right .next-page .page {
   font-size: 15px;
   padding: 10px 15px;
   margin: 3px;
   border: 1px solid #ddd;
   background-color: white;
 }
-.main .col-right .next-page .page:hover {
+section .col-right .next-page .page:hover {
   background-color: #2b9348;
   color: white;
 }
 
 /*trang chính blog theo dạng list*/
-.main {
+section {
   display: block;
   overflow: auto;
   background-color: white;
 }
-/* .main .col-right {
+/* section .col-right {
   margin-left: 290px;
 } */
-.main .col-right .row {
+section .col-right .row {
   display: block;
   overflow: auto;
   border: 1px solid #f2f2f2;
   margin: 15px;
 }
-.main .col-right .row__left {
+section .col-right .row__left {
   float: left;
   margin: 15px;
 }
-.main .col-right .row__left img {
+section .col-right .row__left img {
   width: 230px;
   height: 230px;
 }
-.main .col-right .row__right {
+section .col-right .row__right {
   float: left;
   margin-left: 15px;
   width: 65%;
   line-height: 1.6;
   margin-top: 15px;
 }
-.main .col-right .row__right .tag {
+section .col-right .row__right .tag {
   color: #2b9348;
 }
-.main .col-right .row__right .title {
+section .col-right .row__right .title {
   font-weight: bold;
   font-size: 30px;
   padding: 10px 0px;
 }
-.main .col-right .row__right .title:hover {
+section .col-right .row__right .title:hover {
   color: #2b9348;
 }
-.main .col-right .row__right .summary {
+section .col-right .row__right .summary {
   color: gray;
   padding-bottom: 10px;
   max-height: 100px;
 }
-.main .col-right .row__right .info {
+section .col-right .row__right .info {
   color: gray;
   font-size: 15px;
 }
-.main .col-right .row__right .info span {
+section .col-right .row__right .info span {
   margin-right: 20px;
 }
-.main .col-right .row__right .info .name {
+section .col-right .row__right .info .name {
   font-weight: bold;
 }
-.main .col-right .row__right a {
+section .col-right .row__right a {
   text-decoration: none;
   color: black;
 }
-.main .col-right .row__right a:hover {
+section .col-right .row__right a:hover {
   color: #2b9348;
 }
 .link-none {

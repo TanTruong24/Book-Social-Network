@@ -17,12 +17,12 @@
 .link-bt-none:hover {
   color: white;
 }
-.main {
+section {
   display: block;
   overflow: auto;
   background-color: white;
 }
-.main .col-right {
+section .col-right {
   display: block;
   overflow: auto;
   background-color: white;
@@ -158,19 +158,19 @@
 }
 
 /*next page*/
-.main .col-right .next-page {
+section .col-right .next-page {
   margin: auto;
   text-align: center;
   padding-bottom: 20px;
 }
-.main .col-right .next-page .page {
+section .col-right .next-page .page {
   font-size: 15px;
   padding: 10px 15px;
   margin: 3px;
   border: 1px solid #ddd;
   background-color: white;
 }
-.main .col-right .next-page .page:hover {
+section .col-right .next-page .page:hover {
   background-color: #2b9348;
   color: white !important;
 }
